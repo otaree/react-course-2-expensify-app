@@ -5,7 +5,7 @@
   "author": "otaree",
   "license": "MIT",
   "engines": {
-    "node": "v9.8.0"
+    "node": "8.9.4"
   },
   "scripts": {
     "start": "node server/server.js",
