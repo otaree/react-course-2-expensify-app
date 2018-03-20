@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "otaree",
   "license": "MIT",
+  "engines": {
+    "node": "v9.8.0"
+  },
   "scripts": {
     "start": "node server/server.js",
     "serve": "live-server public/",
