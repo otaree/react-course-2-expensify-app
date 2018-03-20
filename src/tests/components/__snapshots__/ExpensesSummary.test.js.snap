@@ -2,22 +2,26 @@
 
 exports[`should render ExpressSummary correctly with expenses 1`] = `
 <div>
-  <p>
+  <h1>
     Viewing 
-    3
-     expenses totaling 
-    $1,141.95
-  </p>
+    23
+     
+    expenses
+     totaling 
+    $232,323,232,324.24
+  </h1>
 </div>
 `;
 
 exports[`should render ExpressSummary correctly with no expenses 1`] = `
 <div>
-  <p>
+  <h1>
     Viewing 
-    0
-     expenses totaling 
-    $0.00
-  </p>
+    1
+     
+    expense
+     totaling 
+    $0.25
+  </h1>
 </div>
 `;
