@@ -1,0 +1,1 @@
+export default (expenses) => expenses.map((expense) => parseFloat(expense.amount)).reduce((acc, cur) => acc + cur, 0);
