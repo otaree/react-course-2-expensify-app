@@ -22,7 +22,7 @@ test('should render EditExpensePage', () => {
     expect(wrapper).toMatchSnapshot();
 });
 
-test('should handle editExpense', () => {
+test('should handle startEditExpense', () => {
     wrapper.find("ExpenseForm").prop('onSubmit')(expenses[1]);
     expect(history.push).toHaveBeenLastCalledWith('/');
     expect(startEditExpense).toHaveBeenLastCalledWith(expenses[1].id, expenses[1]);
